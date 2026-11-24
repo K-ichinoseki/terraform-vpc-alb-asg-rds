@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# backend 設定（AWSアカウントIDを含むため公開しない。backend.tf.example を参照）
+envs/*/backend.tf
